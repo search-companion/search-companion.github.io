@@ -1,0 +1,7 @@
+domain: search-companion.org
+url: https://www.search-companion.org
+google_analytics:
+baseurl: /
+theme: jekyll-theme-slate
+title: search-companion
+description: Home for the open source search companion to interact with open source search engines

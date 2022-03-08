@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#project_title::before {
+  content: url("/assets/logo.png");
+  display: block;
+  position: relative;
+  width: 35px;
+  top: 5px;
+}
