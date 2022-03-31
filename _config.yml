@@ -4,4 +4,4 @@ google_analytics:
 baseurl: /
 theme: jekyll-theme-slate
 title: search-companion
-description: Home for the open source search companion to interact with open source search engines
+description: Home for the Solr search companion. Search-companion simplifies daily interactions with Solr.
