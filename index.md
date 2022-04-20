@@ -5,7 +5,7 @@ The functionality is based on apache camel (<a href="https://camel.apache.org" t
 The search-companion components are deployed in an apache karaf container (<a href="https://karaf.apache.org" target="_blank">https://karaf.apache.org</a>) via "search-companion" karaf features.
 
 - The docker image of the karaf container is available on <a href="https://hub.docker.com/repository/docker/searchcompanion/karaf" target="_blank">docker hub</a>
-- The karaf features xml can be found <a href="https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf-features/0.8.0/companion-karaf-features-0.8.0-features.xml/" target="_blank">here/</a>
+- The karaf features xml can be found <a href="https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf-features/0.8.0/companion-karaf-features-0.8.0-features.xml/" target="_blank">here</a>
 - The karaf distro can be found  <a href="https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf/0.8.0/companion-karaf-0.8.0.tar.gz" target="_blank">here</a>
 
 ### Quick start demo
