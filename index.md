@@ -4,9 +4,9 @@ search-companion.org is working on open source tools to help technical people to
 The functionality is based on apache camel (<a href="https://camel.apache.org" target="_blank">https://camel.apache.org</a>) application.
 The search-companion components are deployed in an apache karaf container (<a href="https://karaf.apache.org" target="_blank">https://karaf.apache.org</a>) via "search-companion" karaf features.
 
-- The docker image of the karaf container is available on <a href="https://hub.docker.com/repository/docker/searchcompanion/karaf" target="_blank">https://hub.docker.com/repository/docker/searchcompanion/karaf</a>
-- The karaf features xml is available on <a href="https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf-features/0.8.0/companion-karaf-features-0.8.0-features.xml/" target="_blank">https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf-features/0.8.0/companion-karaf-features-0.8.0-features.xml/</a>
-- The karaf distro is available on <a href="https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf/0.8.0/companion-karaf-0.8.0.tar.gz" target="_blank">https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf/0.8.0/companion-karaf-0.8.0.tar.gz</a>
+- The docker image of the karaf container is available on <a href="https://hub.docker.com/repository/docker/searchcompanion/karaf" target="_blank">docker hub</a>
+- The karaf features xml can be found <a href="https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf-features/0.8.0/companion-karaf-features-0.8.0-features.xml/" target="_blank">here/</a>
+- The karaf distro can be found  <a href="https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf/0.8.0/companion-karaf-0.8.0.tar.gz" target="_blank">here</a>
 
 ### Quick start demo
 The easiest way to see the search-companion functionality in action, is to run the searchcompanion/karaf docker container in an example "docker compose" network with a zoo/solr ensemble and an example db.
