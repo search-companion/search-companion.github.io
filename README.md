@@ -1,3 +1,5 @@
 # search-companion.github.io
 
-Home for the search-companion.org website
+This project contains the source code for the search-companion website pages hosted on github.
+
+For the 'front-end' view, please visit https://search-companion.org/. 
