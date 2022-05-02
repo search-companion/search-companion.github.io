@@ -22,5 +22,5 @@ See the companion-demo README page (<a href="https://github.com/search-companion
 
 ### Contact
 
-This page is under constructions.
-Please contact us via [email](mailto:info@search-companion.org) to get answers to your enquiries.
+Please contact us via [email](mailto:info@search-companion.org).
+We're open to suggestions, enhancements and feedback and welcome all possible participations on this project.
