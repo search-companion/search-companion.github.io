@@ -15,7 +15,7 @@ See the companion-demo README page (<a href="https://github.com/search-companion
 ### search-companion features
 
 - data-import: alternative and robust solution to replace the deprecated solr dataimporthandler that imports data from a datasource into solr
-- config-upload: a solution to enable non IT people to load solr config into zookeeper via a folder watcher (with optional post-processing tasks e.g. spellcheck build)
+- config-upload: a solution to enable non IT people to load solr config files into zookeeper via a folder watcher (with optional post-processing tasks e.g. spellcheck build)
 - querqy-upload: a querqy rules upload routine based on a folder watcher that generates rules for a querqy rewriter from csv files
 
 ### search-companion source code on GitHub
