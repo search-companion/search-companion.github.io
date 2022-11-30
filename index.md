@@ -10,7 +10,7 @@ The search-companion components are deployed in an apache karaf container ([http
 
 ### Quick start demo
 The easiest way to see the search-companion functionality in action, is to run the searchcompanion/karaf docker container in an example "docker compose" network with a zoo/solr ensemble and an example db.
-See the companion-demo README page (<a href="https://github.com/search-companion/companion-demo" target="_blank">https://github.com/search-companion/companion-demo</a>)
+See the companion-demo [README page](https://github.com/search-companion/companion-demo)
 
 ### search-companion features deployed in karaf
 
