@@ -12,11 +12,12 @@ The search-companion components are deployed in an apache karaf container (<a hr
 The easiest way to see the search-companion functionality in action, is to run the searchcompanion/karaf docker container in an example "docker compose" network with a zoo/solr ensemble and an example db.
 See the companion-demo README page (<a href="https://github.com/search-companion/companion-demo" target="_blank">https://github.com/search-companion/companion-demo</a>)
 
-### search-companion features
+### search-companion features deployed in karaf
 
-- data-import: alternative and robust solution that replaces the deprecated solr dataimporthandler. Basically it takes care of the data synchronisation between a datasource and solr
-- config-upload: a solution that enables non IT people to load solr config files (dictionaries, synonyms, ...) into zookeeper via a folder watcher (with optional post-processing tasks e.g. collection reload or spellcheck build)
+- data-import: alternative and robust solution that replaces the deprecated solr DIH (dataimporthandler); basically taking care of the data synchronisation between a datasource and solr
+- config-upload: a solution that enables non IT people to load solr config files (dictionaries, synonyms, ...) into zookeeper via a folder watcher (with optional post-processing tasks e.g. spellcheck build)
 - querqy-upload: a querqy rules upload routine based on a folder watcher that generates rules for a querqy rewriter from csv files
+- searchapi: extendable REST search API to decouple your search API from the search implementation with swagger UI (jaxrs-server and Apache CXF as the implementation of the JAXRS specification); screenshot: <img src="./assets/searchapi-swagger-openapi.png" title="searchapi-swagger-openapi" width="500px"/>
 
 ### search-companion source code on GitHub
 
