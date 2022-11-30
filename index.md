@@ -4,7 +4,7 @@ search-companion.org is working on open source tools to help technical people to
 The functionality is based on apache camel ([https://camel.apache.org](https://camel.apache.org)) application.
 The search-companion components are deployed in an apache karaf container ([https://karaf.apache.org](https://karaf.apache.org)) via "search-companion" karaf features.
 
-- The docker image of the karaf container is available [here](https://hub.docker.com/repository/docker/searchcompanion/karaf) on docker hub</a>
+- The docker image of the karaf container is available [here](https://hub.docker.com/repository/docker/searchcompanion/karaf) on docker hub
 - The karaf features xml can be found [here](https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf-features/0.8.1/companion-karaf-features-0.8.1-features.xml/)
 - The karaf distro can be found [here](https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf/0.8.1/companion-karaf-0.8.1.tar.gz)
 
