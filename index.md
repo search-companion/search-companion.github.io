@@ -17,7 +17,7 @@ See the companion-demo [README page](https://github.com/search-companion/compani
 - **data-import**: alternative and robust solution that replaces the deprecated solr DIH (dataimporthandler); basically taking care of the data synchronisation between a datasource and solr
 - **config-upload**: a solution that enables non IT people to load solr config files (dictionaries, synonyms, ...) into zookeeper via a folder watcher (with optional post-processing tasks e.g. spellcheck build)
 - **querqy-upload**: a querqy rules upload routine based on a folder watcher that generates rules for a querqy rewriter from csv files
-- **searchapi**: extendable REST search API that decouples your search API from the search implementation with swagger UI (jaxrs-server and Apache CXF as the implementation of the JAXRS specification); a necessity unless you will only allow 1 client to access your search engine; 
+- **searchapi**: extendable REST search API that puts a search API in front of the search engine; includes a swagger UI, a jaxrs-server and Apache CXF as the implementation of the JAXRS specification 
 
 REST service list:
 
@@ -25,7 +25,7 @@ REST service list:
 
 OpenAPI 3 Swagger UI: 
 
-<img src="./assets/searchapi-swagger-openapi.png" title="searchapi-swagger-openapi" width="500px"/>
+<img src="./assets/searchapi-swagger-openapi.png" title="searchapi-swagger-openapi" width="500px" alt="searchapi-swagger-openapi"/>
 
 ### search-companion source code on GitHub
 

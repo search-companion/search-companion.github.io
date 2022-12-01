@@ -2,4 +2,4 @@
 
 This project contains the source code for the search-companion website pages hosted on github.
 
-For the 'front-end' view, please visit https://search-companion.org/. 
+For the 'front-end' view, please visit [https://search-companion.org/](https://search-companion.org/). 
