@@ -8,6 +8,9 @@ The search-companion components are deployed in an apache karaf container ([http
 - The karaf features xml can be found [here](https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf-features/0.8.6/companion-karaf-features-0.8.6-features.xml/)
 - The karaf distro can be found [here](https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf/0.8.6/companion-karaf-0.8.6.tar.gz)
 
+### Note
+We're currently investigating the migration of the search-companion toolset to a cloud-native (serverless) approach. Please contact us via [email](mailto:info@search-companion.org) for more info.
+
 ### Quick start demo
 The easiest way to see the search-companion functionality in action, is to run the searchcompanion/karaf docker container in an example "docker compose" network with a zoo/solr ensemble and an example db.
 See the companion-demo [README page](https://github.com/search-companion/companion-demo)
