@@ -9,7 +9,7 @@ The search-companion components are deployed in an apache karaf container ([http
 - The karaf distro can be found [here](https://mvn.search-companion.org/mvnrepo/companion/org/search-companion/companion-karaf/0.8.6/companion-karaf-0.8.6.tar.gz)
 
 ### Note
-We're currently investigating the migration of the search-companion toolset to a cloud-native (serverless) approach. Please contact us via [email](mailto:info@search-companion.org) for more info.
+<mark>We're currently finalizing the migration of the search-companion to a cloud-native (serverless) approach based on quarkus, camel-quarkus and camel-quarkus-solr.</mark> We've collaborated with the apache team to reinstate the camel-solr and camel-quarkus-solr components. Please contact us via [email](mailto:info@search-companion.org) for more info.
 
 ### Quick start demo
 The easiest way to see the search-companion functionality in action, is to run the searchcompanion/karaf docker container in an example "docker compose" network with a zoo/solr ensemble and an example db.
